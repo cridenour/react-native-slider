@@ -1,9 +1,8 @@
 'use strict';
 
-var React = require('react');
+var React, { PropTypes } = require('react');
 var {
   Animated,
-  PropTypes,
   StyleSheet,
   PanResponder,
   View
